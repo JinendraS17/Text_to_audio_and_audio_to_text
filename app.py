@@ -4,7 +4,7 @@ import text_to_speech
 app = Flask(__name__)
 
 @app.route('/')
-def hello():
+def Home():
     return render_template('index.html')
 
 @app.route('/audio_to_text')
